@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -lncurses -lrt -pthread -lmosquitto -lm   -rdynamic CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/function.c.o CMakeFiles/main.dir/camera.cpp.o  -o main  -L/usr/local/lib -Wl,-rpath,/usr/local/lib:/opt/vc/lib /opt/vc/lib/libmmal_core.so /opt/vc/lib/libmmal_util.so /opt/vc/lib/libmmal.so -lraspicam -lmosquitto 

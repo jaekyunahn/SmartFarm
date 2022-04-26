@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/connect_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="connect"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1081dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="109dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/camera_shot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="camera shot"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1177dp" />
+
+    <EditText
+        android:id="@+id/gettmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <EditText
+        android:id="@+id/gethum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <EditText
+        android:id="@+id/getwater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <EditText
+        android:id="@+id/getlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <Button
+        android:id="@+id/getData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="get data"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1033dp" />
+
+    <EditText
+        android:id="@+id/sLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="833dp" />
+
+    <Button
+        android:id="@+id/user_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="user control On"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1033dp" />
+
+    <Button
+        android:id="@+id/led_button"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="LED On/Off"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1033dp" />
+
+    <Button
+        android:id="@+id/pan_button"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="PAN On/Off"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1033dp" />
+
+    <Button
+        android:id="@+id/window_button"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publisherFunction"
+        android:text="Window On/Off"
+        tools:ignore="MissingConstraints,OnClick"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="1033dp" />
+
+    <EditText
+        android:id="@+id/getText"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+</LinearLayout>

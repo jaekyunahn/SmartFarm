@@ -9,7 +9,7 @@ Description
 
   Arduino :  Raspberry-Pi와 Serial Port로 연결 되어 57600 Baudrate로 통신, Sensor Data 전송이나 LED,Pan,Window의 현재 상태 및 동작제어를 위한 명령어도 받도록 되어 있는 구조. 
 
-  Android Application : 외부 인터넷망에서 MQTT Protocol로 동작하기 위해 실험적으로 제작하였다.
+  Android Application : 외부 인터넷망에서 MQTT Protocol로 동작하기 위해 실험적으로 제작.
 
   이 프로젝트는 개인역량 증진 목표로 시작하게 된 프로젝트로 부족함이 많을 수 있습니다. 추후 부족분은 지속적으로 업데이트를 진행할 예정이며 Android는 처음 시작 한 부분이고 필요한 소스코드나 Layout관련 부분만 올린점 양해 바랍니다.
 
